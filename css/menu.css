@@ -1,0 +1,39 @@
+
+
+ #menu a{
+    color: #70F5FF; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+.grid-container {
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+div img{
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+}
+
+/*add captions to images*/
+/*  */
+
+@media screen and (min-width: 800px){
+    .grid-container{
+        grid-template-columns: 33% 33% 33%;
+        row-gap: 15px;
+        column-gap: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .grid-container{
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 20px;
+    column-gap: 20px;
+    }
+}

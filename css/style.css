@@ -1,0 +1,59 @@
+ 
+body{
+    font-family: 'Poppins', serif;
+}
+
+/* HELP WITH MAKING THIS SHOW UP*/
+.maincontent a{
+  position: absolute;
+  top: -200px;
+}
+
+.maincontent a:focus {
+  top: 30px;
+  right: 30px;
+}
+
+nav li{
+    display:inline;
+    padding-right:30px;
+    white-space: nowrap; 
+  
+  }
+  
+  nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  nav{
+    background-color: #07694C;
+    padding: 25px 0; 
+    text-align: center;
+  }
+
+
+/* footer styling */
+ footer{
+    background-color: #07694C;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+  }
+
+  
+@media screen and (min-width: 800px){
+    nav{
+        text-align: left;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    nav{
+        text-align:right;
+    }
+
+  
+}
